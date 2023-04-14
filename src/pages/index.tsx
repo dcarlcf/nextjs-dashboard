@@ -220,6 +220,7 @@ const Home: NextPage = () => (
         </Card>
       </div>
 
+      {/* // Conversion Rate Component */}
       <div className="col-sm-6 col-lg-3">
         <Card bg="warning" text="white" className="mb-4">
           <Card.Body className="pb-0 d-flex justify-content-between align-items-start">
@@ -246,7 +247,7 @@ const Home: NextPage = () => (
 
               <Dropdown.Menu>
                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Another action 2.0</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
@@ -281,12 +282,12 @@ const Home: NextPage = () => (
                 },
               }}
               data={{
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', ],
                 datasets: [{
                   label: 'My First dataset',
                   backgroundColor: 'rgba(255,255,255,.2)',
                   borderColor: 'rgba(255,255,255,.55)',
-                  data: [78, 81, 80, 45, 34, 12, 40],
+                  data: [78, 81, 80, 45, 34, 12, 400],
                   fill: true,
                 }],
               }}
@@ -295,6 +296,7 @@ const Home: NextPage = () => (
         </Card>
       </div>
 
+      {/* // Sessions Component */}
       <div className="col-sm-6 col-lg-3">
         <Card bg="danger" text="white" className="mb-4">
           <Card.Body className="pb-0 d-flex justify-content-between align-items-start">
@@ -373,6 +375,7 @@ const Home: NextPage = () => (
       </div>
     </div>
 
+    {/* // Traffic Component */}
     <Card className="mb-4">
       <Card.Body>
         <div className="d-flex justify-content-between">
@@ -554,6 +557,7 @@ const Home: NextPage = () => (
       </Card.Footer>
     </Card>
 
+
     <div className="row">
       <div className="col-sm-6 col-lg-4">
         <Card
@@ -644,7 +648,8 @@ const Home: NextPage = () => (
 
     </div>
 
-    <div className="row">
+     {/* Traffic & Sales Component        */}
+    {/* <div className="row">
       <div className="col-md-12">
         <Card>
           <Card.Header>
@@ -1358,7 +1363,7 @@ const Home: NextPage = () => (
           </Card.Body>
         </Card>
       </div>
-    </div>
+    </div> */}
   </AdminLayout>
 )
 
